@@ -1,0 +1,11 @@
+framework module eidsdk {
+  umbrella header "eidsdk.h"
+
+  export *
+  module * { export * }
+}
+
+module eidsdk.Swift {
+  header "eidsdk-Swift.h"
+  requires objc
+}

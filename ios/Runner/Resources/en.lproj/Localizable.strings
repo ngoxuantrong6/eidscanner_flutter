@@ -1,0 +1,72 @@
+"title_scan" = "Scan CCCD";
+"title_ekyc" = "eKYC";
+"title_scan_step" = "Quét MRZ và Đọc NFC";
+"title_detail_info" = "Thông tin";
+
+"instruction_camera_permission" = "Cho phép app sử dụng camera để scan thẻ";
+
+"message_info" = "Thông tin";
+"message_warning" = "Cảnh báo";
+"message_error" = "Lỗi";
+"message_success" = "Thành công";
+"message_empty_dashboard_title" = "Không có module";
+"message_empty_dashboard_description" = "Chưa có module được đăng ký với hệ thống";
+
+"dismiss" = "Huỷ";
+"cancel" = "Bỏ";
+"ok" = "OK";
+"loading_data" = "Tải dữ liệu";
+
+"error_unknown" = "Lỗi không rõ";
+"error_permission" = "Lỗi quyền thiết bị";
+"supported" = "Hỗ trợ";
+"not_supported" = "Không hỗ trợ";
+"verified" = "Xác thực";
+"not_verified" = "Không Xác Thực";
+"no_available_data" = "Không có dữ liệu";
+
+// EID GENERAL
+"eid_photo" = "Ảnh CCCD";
+"eid_valid" = "CCCD đã được xác thực.";
+"eid_invalid" = "CCCD không hợp lệ.";
+"eid_content_valid" = "Chip hợp lệ và đã được xác thực.";
+"eid_ca_invalid" = "Chip không hợp lệ.";
+"eid_pa_invalid" = "Thông tin trong chip đã bị thay đổi.";
+"eid_aa_invalid" = "Thẻ CCCD đã bị làm giả.";
+"eid_rar_not_verified" = "Thông tin SOD không hợp lệ.";
+"eid_rar_signature_not_verified" = "Thông tin xác thực không hợp lệ.";
+"eid_no_data" = "Không đọc được dữ liệu CCCD.";
+
+// SECURITY
+"eid_asystems" = "Toàn vẹn dữ liệu (A-System Requirements)";
+"eid_ca" = "Chip Authentication";
+"eid_pa" = "Passive Authentication";
+"eid_aa" = "Active Authentication";
+"eid_verification" = "Xác thực";
+"rar_cert_verification" = "RAR Certificate Verification";
+"rar_sign_verification" = "RAR Signature Verification";
+
+
+"portrait_photo" = "Ảnh Selfie";
+"section_personal" = "Thông Tin Chủ thể";
+"section_card" = "Thông Tin Thẻ";
+"label_name:" = "Họ và tên";
+"label_eid_number:" = "Số CCCD:";
+"label_date_of_birth:" = "Ngày sinh:";
+"label_date_of_expiry:" = "Ngày hết hạn:";
+"label_gender:" = "Giới tính:";
+"label_nationality:" = "Quốc tịch:";
+"label_ethnicity:" = "Dân tộc:";
+"label_religion:" = "Tôn giáo:";
+"label_place_of_origin:" = "Quê quán:";
+"label_place_of_residence:" = "Thường trú:";
+"label_identification:" = "Đặc điểm nhận dạng:";
+"label_date_of_issue:" = "Ngày cấp:";
+"label_date_of_expiry:" = "Có giá trị đến:";
+"label_father_name:" = "Tên bố:";
+"label_mother_name:" = "Tên mẹ:";
+"label_old_id:" = "Số CMND:";
+"label_document_type:" = "Loại ID:";
+"label_issuing_authority:" = "Đơn vị cung cấp:";
+"label_pace:" = "PACE:";
+"label_chip_authentication:" = "Bảo mật chip:";

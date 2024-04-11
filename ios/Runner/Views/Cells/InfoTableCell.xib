@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans-Regular</string>
+        </array>
+        <array key="OpenSans-SemiBold.ttf">
+            <string>OpenSans-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="InfoTableCell" customModule="eidsuitedemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Icm-K3-ybT">
+                        <rect key="frame" x="20" y="10" width="374" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="KSE-6k-ucD"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="14"/>
+                        <color key="textColor" name="gtelBrandOrange"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Info" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="ndE-SW-Fe4">
+                        <rect key="frame" x="20" y="28" width="374" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="rxQ-hF-rQY"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="16"/>
+                        <color key="textColor" name="gtelBrandBlack"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Icm-K3-ybT" secondAttribute="trailing" constant="20" id="6vO-cY-49E"/>
+                    <constraint firstAttribute="bottom" secondItem="ndE-SW-Fe4" secondAttribute="bottom" constant="11" id="HAb-GR-3oV"/>
+                    <constraint firstItem="Icm-K3-ybT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="PAM-dE-XTM"/>
+                    <constraint firstItem="ndE-SW-Fe4" firstAttribute="top" secondItem="Icm-K3-ybT" secondAttribute="bottom" id="bN3-VF-Ynh"/>
+                    <constraint firstItem="ndE-SW-Fe4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="jgp-SP-dgf"/>
+                    <constraint firstAttribute="trailing" secondItem="ndE-SW-Fe4" secondAttribute="trailing" constant="20" id="lly-MW-bPT"/>
+                    <constraint firstItem="Icm-K3-ybT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="vkn-Xj-zIa"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="_infoLbl" destination="ndE-SW-Fe4" id="4Ff-F9-a5A"/>
+                <outlet property="_titleLbl" destination="Icm-K3-ybT" id="pUK-yz-EbM"/>
+            </connections>
+            <point key="canvasLocation" x="129" y="80"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="gtelBrandBlack">
+            <color red="0.15299999713897705" green="0.15299999713897705" blue="0.15299999713897705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="gtelBrandOrange">
+            <color red="0.9882352941176471" green="0.31764705882352939" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
