@@ -110,7 +110,8 @@ class NfcActivity : androidx.fragment.app.FragmentActivity(), NfcFragment.NfcFra
             val dsCert = StringUtils.encodeToBase64String(eid?.sodFile?.docSigningCertificate)
             Log.d("YourTag", "dsCert $dsCert")
             val province = StringUtils.getProvince(eid?.personOptionalDetails?.placeOfOrigin)
-            var code = BuildConfig.CUSTOMER_CODE;
+//            var code = BuildConfig.CUSTOMER_CODE;
+            var code = "SEATECH-CODE"
 //            var path = ""
 //            EIDSERVICE.verifyEid(path, eidNumber, dsCert, province, code, object: RestCallback<ResponseModel<EidVerifyModel>>(this) {
 //                override fun Success(model: ResponseModel<EidVerifyModel>?) {

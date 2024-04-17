@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:camera/camera.dart';
+// import 'package:camera/camera.dart';
 
 class CameraMRZScreen extends StatefulWidget {
   const CameraMRZScreen({super.key});

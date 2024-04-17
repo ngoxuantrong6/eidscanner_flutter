@@ -16,7 +16,8 @@ class CameraActivity : AppCompatActivity(), CameraOcrCallback {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_camera)
-        EIDSERVICE.init(BuildConfig.API_KEY, BuildConfig.API_BASE_URL)
+//        EIDSERVICE.init(BuildConfig.API_KEY, BuildConfig.API_BASE_URL)
+        EIDSERVICE.init("tZ3hsBK2yjtTb7UKQNjPNQXMJbHydMho", "https://api.gwork.vn")
         EidFacade.registerOcrListener(this)
         supportFragmentManager.beginTransaction()
             .replace(R.id.container, CameraMLKitFragment())
